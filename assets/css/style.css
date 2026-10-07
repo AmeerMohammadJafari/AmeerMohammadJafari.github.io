@@ -207,3 +207,9 @@ h1 { font: 600 2.4rem/1.15 var(--serif); letter-spacing: -.01em; }
   html { scroll-behavior: auto; }
   .btn { transition: none; }
 }
+
+/* Repo links */
+.card h3 a { color: var(--text); }
+.card h3 a:hover { color: var(--accent); text-decoration: none; }
+.card .ext { color: var(--muted); font-size: .85em; }
+.research-item > p.item-links { margin-top: 10px; font-weight: 500; font-size: .93rem; }
